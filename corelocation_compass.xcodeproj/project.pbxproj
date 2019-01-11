@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371C0C2421E5BD0300694B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C0C2321E5BD0300694B19 /* AppDelegate.swift */; };
+		371C0C2621E5BD0300694B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C0C2521E5BD0300694B19 /* ViewController.swift */; };
+		371C0C2921E5BD0300694B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371C0C2721E5BD0300694B19 /* Main.storyboard */; };
+		371C0C2B21E5BD0700694B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371C0C2A21E5BD0700694B19 /* Assets.xcassets */; };
+		371C0C2E21E5BD0700694B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371C0C2C21E5BD0700694B19 /* LaunchScreen.storyboard */; };
+		371C0C3721E5BD2B00694B19 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371C0C3621E5BD2B00694B19 /* CoreLocation.framework */; };
+		371C0C3921E5BEF000694B19 /* compass0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 371C0C3821E5BEF000694B19 /* compass0.jpg */; };
+		371C0C3B21E8337200694B19 /* yazirusiue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 371C0C3A21E8337100694B19 /* yazirusiue.jpg */; };
+		371C0C3D21E8344C00694B19 /* yazirusi.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C0C3C21E8344C00694B19 /* yazirusi.png */; };
+		371C0C3F21E8351500694B19 /* yazirusi.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C0C3E21E8351500694B19 /* yazirusi.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		371C0C2021E5BD0300694B19 /* corelocation_compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = corelocation_compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		371C0C2321E5BD0300694B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		371C0C2521E5BD0300694B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		371C0C2821E5BD0300694B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		371C0C2A21E5BD0700694B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		371C0C2D21E5BD0700694B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		371C0C2F21E5BD0700694B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371C0C3621E5BD2B00694B19 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		371C0C3821E5BEF000694B19 /* compass0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = compass0.jpg; path = ../../../Downloads/compass0.jpg; sourceTree = "<group>"; };
+		371C0C3A21E8337100694B19 /* yazirusiue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yazirusiue.jpg; path = ../../../Downloads/yazirusiue.jpg; sourceTree = "<group>"; };
+		371C0C3C21E8344C00694B19 /* yazirusi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yazirusi.png; path = ../../../Downloads/yazirusi.png; sourceTree = "<group>"; };
+		371C0C3E21E8351500694B19 /* yazirusi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yazirusi.png; path = ../../../Downloads/yazirusi.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371C0C1D21E5BD0300694B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371C0C3721E5BD2B00694B19 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371C0C1721E5BD0300694B19 = {
+			isa = PBXGroup;
+			children = (
+				371C0C2221E5BD0300694B19 /* corelocation_compass */,
+				371C0C2121E5BD0300694B19 /* Products */,
+				371C0C3521E5BD2B00694B19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		371C0C2121E5BD0300694B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371C0C2021E5BD0300694B19 /* corelocation_compass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		371C0C2221E5BD0300694B19 /* corelocation_compass */ = {
+			isa = PBXGroup;
+			children = (
+				371C0C2321E5BD0300694B19 /* AppDelegate.swift */,
+				371C0C2521E5BD0300694B19 /* ViewController.swift */,
+				371C0C2721E5BD0300694B19 /* Main.storyboard */,
+				371C0C2A21E5BD0700694B19 /* Assets.xcassets */,
+				371C0C2C21E5BD0700694B19 /* LaunchScreen.storyboard */,
+				371C0C2F21E5BD0700694B19 /* Info.plist */,
+				371C0C3821E5BEF000694B19 /* compass0.jpg */,
+				371C0C3A21E8337100694B19 /* yazirusiue.jpg */,
+				371C0C3E21E8351500694B19 /* yazirusi.png */,
+				371C0C3C21E8344C00694B19 /* yazirusi.png */,
+			);
+			path = corelocation_compass;
+			sourceTree = "<group>";
+		};
+		371C0C3521E5BD2B00694B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				371C0C3621E5BD2B00694B19 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		371C0C1F21E5BD0300694B19 /* corelocation_compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371C0C3221E5BD0700694B19 /* Build configuration list for PBXNativeTarget "corelocation_compass" */;
+			buildPhases = (
+				371C0C1C21E5BD0300694B19 /* Sources */,
+				371C0C1D21E5BD0300694B19 /* Frameworks */,
+				371C0C1E21E5BD0300694B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = corelocation_compass;
+			productName = corelocation_compass;
+			productReference = 371C0C2021E5BD0300694B19 /* corelocation_compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371C0C1821E5BD0300694B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = shotaro;
+				TargetAttributes = {
+					371C0C1F21E5BD0300694B19 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 371C0C1B21E5BD0300694B19 /* Build configuration list for PBXProject "corelocation_compass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 371C0C1721E5BD0300694B19;
+			productRefGroup = 371C0C2121E5BD0300694B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				371C0C1F21E5BD0300694B19 /* corelocation_compass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		371C0C1E21E5BD0300694B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371C0C2E21E5BD0700694B19 /* LaunchScreen.storyboard in Resources */,
+				371C0C3921E5BEF000694B19 /* compass0.jpg in Resources */,
+				371C0C2B21E5BD0700694B19 /* Assets.xcassets in Resources */,
+				371C0C3D21E8344C00694B19 /* yazirusi.png in Resources */,
+				371C0C3B21E8337200694B19 /* yazirusiue.jpg in Resources */,
+				371C0C2921E5BD0300694B19 /* Main.storyboard in Resources */,
+				371C0C3F21E8351500694B19 /* yazirusi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371C0C1C21E5BD0300694B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371C0C2621E5BD0300694B19 /* ViewController.swift in Sources */,
+				371C0C2421E5BD0300694B19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		371C0C2721E5BD0300694B19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371C0C2821E5BD0300694B19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		371C0C2C21E5BD0700694B19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371C0C2D21E5BD0700694B19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		371C0C3021E5BD0700694B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		371C0C3121E5BD0700694B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		371C0C3321E5BD0700694B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82FLD6C75;
+				INFOPLIST_FILE = corelocation_compass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shotaroooe.corelocation-compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		371C0C3421E5BD0700694B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82FLD6C75;
+				INFOPLIST_FILE = corelocation_compass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shotaroooe.corelocation-compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371C0C1B21E5BD0300694B19 /* Build configuration list for PBXProject "corelocation_compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371C0C3021E5BD0700694B19 /* Debug */,
+				371C0C3121E5BD0700694B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371C0C3221E5BD0700694B19 /* Build configuration list for PBXNativeTarget "corelocation_compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371C0C3321E5BD0700694B19 /* Debug */,
+				371C0C3421E5BD0700694B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 371C0C1821E5BD0300694B19 /* Project object */;
+}
